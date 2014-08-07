@@ -26,8 +26,12 @@
 \header { number = "5" }
 \include "../hymns/In the Sweet By and By.ly"
 \book { \include "../layouts/letter.post.ly" }
-%}
 
 \header { number = "6" }
 \include "../hymns/What a Friend.ly"
+\book { \include "../layouts/letter.post.ly" }
+%}
+
+\header { number = "7" }
+\include "../hymns/Amazing Grace.ly"
 \book { \include "../layouts/letter.post.ly" }

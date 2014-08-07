@@ -11,7 +11,7 @@
      (minimum-distance . 7)
      (padding . 0)
      (stretchability . 0))
-  ragged-last-bottom = ##f
+  %ragged-last-bottom = ##f
   page-count = #1
 
   bookTitleMarkup = \markup {
