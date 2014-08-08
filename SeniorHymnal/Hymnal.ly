@@ -30,8 +30,12 @@
 \header { number = "6" }
 \include "../hymns/What a Friend.ly"
 \book { \include "../layouts/letter.post.ly" }
-%}
 
 \header { number = "7" }
 \include "../hymns/Amazing Grace.ly"
+\book { \include "../layouts/letter.post.ly" }
+%}
+
+\header { number = "8" }
+\include "../hymns/The Old Rugged Cross.ly"
 \book { \include "../layouts/letter.post.ly" }
