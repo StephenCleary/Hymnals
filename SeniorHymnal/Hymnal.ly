@@ -5,10 +5,9 @@
   tagline = \markup { \column { "Public Domain Hymnal for Senior Living Communities" "A ministry of Landmark Baptist Church, Petoskey, MI" } }
 }
 
-%{
+%%{
 \header { number = "1" }
 \include "../hymns/Nothing but the Blood.ly"
-\include "../hymns/Nothing but the Blood.letter.ly"
 \book { \include "../layouts/letter.post.ly" }
 
 \header { number = "2" }
@@ -34,8 +33,8 @@
 \header { number = "7" }
 \include "../hymns/Amazing Grace.ly"
 \book { \include "../layouts/letter.post.ly" }
-%}
 
 \header { number = "8" }
 \include "../hymns/The Old Rugged Cross.ly"
 \book { \include "../layouts/letter.post.ly" }
+%}

@@ -108,4 +108,13 @@ bassNotes =
   c8 c d4 d8 d d4 d8 d <g, g>2.
 }
 
-layoutNotes = { }
+layoutNotes =
+{
+  s4 * 16
+  \partialMeasureBreak
+  s4 * 16
+  \partialMeasureBreak
+  \chorusMark
+  s4 * 16
+  \partialMeasureBreak
+}

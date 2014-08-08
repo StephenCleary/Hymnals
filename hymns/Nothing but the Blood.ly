@@ -106,3 +106,11 @@ bassNotes =
   g2 g4 d g g g2
   g8 g g g g4 g d2 g,
 }
+
+layoutNotes =
+{
+  s1 * 4 \break
+  s1 * 4 \break
+  \chorusMark
+  s1 * 4 \break
+}

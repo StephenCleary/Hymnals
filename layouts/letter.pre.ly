@@ -43,10 +43,17 @@ defaults =
   \override MultiMeasureRest #'staff-position = #0
   \override Score.MetronomeMark #'stencil = ##f
   \override Score.BarNumber.break-visibility = ##(#f #f #f)
-  \override Score . LyricText #'font-size = #-1
+  \override Score . LyricText #'font-size = #-2
   \override Score . LyricHyphen #'minimum-distance = #1
   \override Score . LyricSpace #'minimum-distance = #0.8
   \override Score . LyricText #'font-name = #"Gentium"
 }
 
-chorusMark = \tweak self-alignment-X #LEFT \mark "Chorus:"
+chorusMark = #(define-music-function (parser location)()
+#{
+  \tweak self-alignment-X #LEFT \mark "Chorus:"
+#})
+partialMeasureBreak = #(define-music-function (parser location)()
+#{
+  \once \set Score.forbidBreak = ##f \bar "||" \break
+#})

@@ -99,4 +99,10 @@ bassNotes =
   d4. ef8 f2. f4 f f bf,1
 }
 
-layoutNotes = { }
+layoutNotes =
+{
+  s2 * 12
+  \partialMeasureBreak
+  s2 * 12
+  \partialMeasureBreak
+}

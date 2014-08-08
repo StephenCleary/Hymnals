@@ -117,4 +117,11 @@ bassNotes = \relative bf,
 
 layoutNotes =
 {
+  s8 * 24
+  \partialMeasureBreak
+  s8 * 24
+  \partialMeasureBreak
+  \chorusMark
+  s8 * 24
+  \partialMeasureBreak
 }

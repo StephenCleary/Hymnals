@@ -83,7 +83,7 @@ tenorNotes =
 {
   r8 r ef af r ef af r ef af r
   ef8 af r f af r f af r ef af r
-  r4 r8 g bf r g bf r ef af r ef
+  r8 r8 r8 g bf r g bf r ef af r ef
   af8 r g bf r g bf r bf ef' ef'
   
   af8. g16 ef4 ef8 ef ef ef ef4 ef8 g4
@@ -94,7 +94,7 @@ tenorNotes =
 bassNotes =
 {
   r8 af,4.( af,) af,( af,)
-  df4.( df) af,( af,8) r4
+  df4.( df) af,( af,8) r8 r8
   ef4.( ef) af,( af,) bf,( bf,) ef( ef8)
   
   ef8. ef16 af,4 af,8 af, af, af, bf,4 bf,8 ef4
@@ -105,6 +105,11 @@ bassNotes =
 
 layoutNotes =
 {
-  s8 s4. * 14 s4 s4
+  s8 * 24
+  \partialMeasureBreak
+  s8 * 22 s16
+  \partialMeasureBreak
   \chorusMark
+  s8 * 25 s16
+  \partialMeasureBreak
 }
