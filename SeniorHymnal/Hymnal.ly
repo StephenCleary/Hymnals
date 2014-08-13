@@ -6,7 +6,7 @@
   tagline = ##f
 }
 
-%%{
+%{
 \header { number = "1" }
 \include "../hymns/Nothing but the Blood.ly"
 \book { \include "../layouts/letter.post.ly" }
@@ -47,3 +47,7 @@
 \include "../hymns/Tell Me the Story of Jesus.ly"
 \book { \include "../layouts/letter.post.ly" }
 %}
+
+\header { number = "11" }
+\include "../hymns/Are You Washed in the Blood.ly"
+\book { \include "../layouts/letter.post.ly" }
