@@ -2,7 +2,8 @@
 %#(ly:set-option 'point-and-click #f)
 
 \header {
-  tagline = \markup { \column { "Public Domain Hymnal for Senior Living Communities" "A ministry of Landmark Baptist Church, Petoskey, MI" } }
+  copyright = \markup { \column { "Public Domain Hymnal for Senior Living Communities" "A ministry of Landmark Baptist Church, Petoskey, MI" } }
+  tagline = ##f
 }
 
 %%{
@@ -36,5 +37,13 @@
 
 \header { number = "8" }
 \include "../hymns/The Old Rugged Cross.ly"
+\book { \include "../layouts/letter.post.ly" }
+
+\header { number = "9" }
+\include "../hymns/Just a Closer Walk with Thee.ly"
+\book { \include "../layouts/letter.post.ly" }
+
+\header { number = "10" }
+\include "../hymns/Tell Me the Story of Jesus.ly"
 \book { \include "../layouts/letter.post.ly" }
 %}
