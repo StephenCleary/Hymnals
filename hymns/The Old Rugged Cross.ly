@@ -125,3 +125,5 @@ layoutNotes =
   s8 * 24
   \partialMeasureBreak
 }
+
+% -*- master: ../SeniorHymnal/Hymnal.ly;

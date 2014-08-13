@@ -5,6 +5,7 @@
   title = "In the Garden"
   poet = "C. Austin Miles, 1912"
   composer = "C. Austin Miles, 1912"
+  meter = "8.9.10.7"
 }
 
 global =
@@ -54,53 +55,53 @@ altoWords = \lyricmode { }
 tenorWords = \lyricmode { }
 bassWords = \lyricmode { }
 
-sopranoNotes =
+sopranoNotes = \relative ef'
 {
-  \partial 8 ef'8 ef' c' df' ef' af' bf' c''4.( c''8)
-  bf'8 af'8 af'4 af'8 bf' af' f' af'4. ef'4
-  g'16 af' bf'4 bf'8 g'4
-  f'16 g' af'4 bf'8 c''4
-  c''8 bf'4 c''8 bf'4 af'8 g'4( af'8) bf'8
+  \partial 8 ef8 ef c df ef af bf c4.( c8)
+  bf8 af8 af4 af8 bf af f af4. ef4
+  g16 af bf4 bf8 g4
+  f16 g af4 bf8 c4
+  c8 bf4 c8 bf4 af8 g4( af8) bf8
   
-  c''8. bf'16 af'4 af'8 af' g' f' g'4 g'8 g'4
-  ef'16 ef' df''4 df''8 df'' c'' b' c''4.( c''4)
-  af'16 bf' c''4 c''8 bf'8 bf' g' af'4 af'8 af'4
-  f'8 ef'16 af'8. af'8 g'16 bf'( bf'4) af'4.( af'4)
+  c8. bf16 af4 af8 af g f g4 g8 g4
+  ef16 ef df'4 df8 df c b c4.( c4)
+  af16 bf c4 c8 bf8 bf g af4 af8 af4
+  f8 ef16 af8. af8 g16 bf( bf4) af4.( af4)
 }
-altoNotes =
+altoNotes = \relative c'
 {
-  c'8 c' af bf c' c' df' ef'4.( ef'8)
-  df'8 c' f'4 f'8 f' f' df' c'4. c'4
-  bf16 c' df'4 df'8 df'4 df'16 df' c'4 df'8 ef'4
-  ef'8 d'4 af'8 g'4 f'8 ef'4( f'8) g'8
+  c8 c af bf c c df ef4.( ef8)
+  df8 c f4 f8 f f df c4. c4
+  bf16 c df4 df8 df4 df16 df c4 df8 ef4
+  ef8 d4 af'8 g4 f8 ef4( f8) g8
   
-  ef'8. df'16 c'4 c'8 c' c' c' df'4 df'8 df'4
-  df'16 df' f'4 f'8 f' ef' d' ef'4.( ef'4)
-  c'16 df' ef'4 ef'8 e' e' e' f'4 gf'8 f'4
-  df'8 c'16 c'8. c'8 df'16 df'( df'4)  c'4.( c'4)
+  ef8. df16 c4 c8 c c c df4 df8 df4
+  df16 df f4 f8 f ef d ef4.( ef4)
+  c16 df ef4 ef8 e e e f4 gf8 f4
+  df8 c16 c8. c8 df16 df( df4)  c4.( c4)
 }
-tenorNotes =
+tenorNotes = \relative
 {
   r8 r ef af r ef af r ef af r
   ef8 af r f af r f af r ef af r
-  r8 r8 r8 g bf r g bf r ef af r ef
-  af8 r g bf r g bf r bf ef' ef'
+  r8 r8 r8 g bf r g bf r ef, af r ef
+  af8 r g bf r g bf r bf ef ef
   
-  af8. g16 ef4 ef8 ef ef ef ef4 ef8 g4
+  af,8. g16 ef4 ef8 ef ef ef ef4 ef8 g4
   g16 g g4 g8 g g g af4.( af4)
-  af16 af af4 af8 g g c' c'4 c'8 df'4
+  af16 af af4 af8 g g c c4 c8 df4
   af8 af16 af8. af8 bf16 g16( g4) af4.( af4)
 }
-bassNotes =
+bassNotes = \relative af,
 {
-  r8 af,4.( af,) af,( af,)
-  df4.( df) af,( af,8) r8 r8
-  ef4.( ef) af,( af,) bf,( bf,) ef( ef8)
+  r8 af4.( af) af( af)
+  df4.( df) af( af8) r8 r8
+  ef'4.( ef) af,( af) bf( bf) ef( ef8)
   
-  ef8. ef16 af,4 af,8 af, af, af, bf,4 bf,8 ef4
-  ef16 ef ef4 ef8 ef ef ef af,4.( af,4)
-  af,16 af, af,4 af,8 c c c f4 ef8 df4
-  df8 ef16 ef8. ef8 ef16 ef16( ef4) af,4.( af,4)
+  ef8. ef16 af,4 af8 af af af bf4 bf8 ef4
+  ef16 ef ef4 ef8 ef ef ef af,4.( af4)
+  af16 af af4 af8 c c c f4 ef8 df4
+  df8 ef16 ef8. ef8 ef16 ef16( ef4) af,4.( af4)
 }
 
 layoutNotes =
@@ -113,3 +114,5 @@ layoutNotes =
   s8 * 25 s16
   \partialMeasureBreak
 }
+
+% -*- master: ../SeniorHymnal/Hymnal.ly;

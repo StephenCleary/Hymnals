@@ -58,42 +58,42 @@ tenorWords = \lyricmode
 }
 bassWords = \lyricmode { }
 
-sopranoNotes =
+sopranoNotes = \relative g'
 {
   \partial 4
-  g'8. a'16 b'4 a'8 g' a'4 g'8. e'16 d'2.
-  g'8. a'16 b'4 b'8 b' d''4 d''8. b'16 a'2.
-  g'8. a'16 b'4 a'8 g' a'4 g'8. e'16 d'2.
-  g'8. a'16 b'4 a'8 g' a'4 g'8 fs' g'2.
+  g8. a16 b4 a8 g a4 g8. e16 d2.
+  g8. a16 b4 b8 b d4 d8. b16 a2.
+  g8. a16 b4 a8 g a4 g8. e16 d2.
+  g8. a16 b4 a8 g a4 g8 fs g2.
   
-  b'8. c''16 d''2. d''8. b'16 a'2.
-  a'8 b' c''4 c''8 c'' c''4 b'8 a' b'2.
-  b'8. c''16 d''2. b'8. a'16 g'2.
-  fs'8 e' d'4 g'8 b' a'4 g'8 fs' g'2.
+  b8. c16 d2. d8. b16 a2.
+  a8 b c4 c8 c c4 b8 a b2.
+  b8. c16 d2. b8. a16 g2.
+  fs8 e d4 g8 b a4 g8 fs g2.
 }
-altoNotes =
+altoNotes = \relative d'
 {
-  d'8. d'16 d'4 d'8 d' e'4 e'8. c'16 b2.
-  d'8. d'16 d'4 d'8 d' d'4 d'8. g'16 fs'2.
-  d'8. d'16 d'4 d'8 d' e'4 e'8. c'16 b2.
-  d'8. d'16 d'4 d'8 d' e'4 d'8 d' d'2.
+  d8. d16 d4 d8 d e4 e8. c16 b2.
+  d8. d16 d4 d8 d d4 d8. g16 fs2.
+  d8. d16 d4 d8 d e4 e8. c16 b2.
+  d8. d16 d4 d8 d e4 d8 d d2.
   
-  g'8. a'16 b'2. b'8. g'16 fs'2.
-  fs'8 g' a'4 a'8 a' a'4 g'8 fs' g'2.
-  g'8. a'16 b'2. d'8. d'16 e'2.
-  d'8 c' b4 d'8 d' d'4 d'8 d' d'2.
+  g8. a16 b2. b8. g16 fs2.
+  fs8 g a4 a8 a a4 g8 fs g2.
+  g8. a16 b2. d,8. d16 e2.
+  d8 c b4 d8 d d4 d8 d d2.
 }
-tenorNotes =
+tenorNotes = \relative
 {
-  b8. c'16 d'4 c'8 b c'4 c'8. g16 g2.
-  b8. c'16 d'4 d'8 d' b4 b8. d'16 d'2.
-  b8. c'16 d'4 c'8 b c'4 c'8. g16 g2.
-  b8. c'16 d'4 c'8 b c'4 b8 a8 b2.
+  b8. c16 d4 c8 b c4 c8. g16 g2.
+  b8. c16 d4 d8 d b4 b8. d16 d2.
+  b8. c16 d4 c8 b c4 c8. g16 g2.
+  b8. c16 d4 c8 b c4 b8 a8 b2.
   
-  r4 r4 d'8. d'16 d'4 d'8. d'16 d'4 d'8 d' d'4
-  d'8 d' d'4 d'8 d' d'4 d'8 d' d'4 d'8 d' d'4
-  r4 r4 d'8. d'16 d'4 d'8. g16 g4 c'8 c' c'4
-  g8 g g4 b8 d'8 c'4 b8 a b2.
+  r4 r4 d8. d16 d4 d8. d16 d4 d8 d d4
+  d8 d d4 d8 d d4 d8 d d4 d8 d d4
+  r4 r4 d8. d16 d4 d8. g,16 g4 c8 c c4
+  g8 g g4 b8 d8 c4 b8 a b2.
 }
 bassNotes =
 {
@@ -118,3 +118,5 @@ layoutNotes =
   s4 * 16
   \partialMeasureBreak
 }
+
+% -*- master: ../SeniorHymnal/Hymnal.ly;

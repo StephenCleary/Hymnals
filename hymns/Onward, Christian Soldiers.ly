@@ -5,6 +5,7 @@
   title = "Onward, Christian Soldiers"
   poet = "Sabine Baring-Gould, 1865"
   composer = "Arthur Sullivan, 1871"
+  meter = "6.5.6.5"
 }
 
 global =
@@ -74,35 +75,35 @@ altoWords = \lyricmode { }
 tenorWords = \lyricmode { }
 bassWords = \lyricmode { }
 
-sopranoNotes =
+sopranoNotes = \relative c''
 {
-  c''4 c'' c'' c'' c''4.( d''8) c''2 g'4 g' f' g' a'1
-  f'4 a' c'' f'' f''2 e'' d''4 d'' a' b' c''1
-  g'4 g' c'' g' a'4.( bf'8) a'2 c''4 c'' f'' c'' d''1
-  d''4 c'' bf' c'' d''( c'') bf'( c'') d'' c'' bf' a' g'1
+  c4 c c c c4.( d8) c2 g4 g f g a1
+  f4 a c f f2 e d4 d a b c1
+  g4 g c g a4.( bf8) a2 c4 c f c d1
+  d4 c bf c d( c) bf( c) d c bf a g1
   
-  f'4 f' f' f' f'( e'8 d'8) e'4( f') g' g' g' f'8( g') a'1
-  c''4 c'' f'' e'' f''2 c''2 bf'4 a' g'4. f'8 f'1
+  f4 f f f f( e8 d8) e4( f) g g g f8( g) a1
+  c4 c f e f2 c2 bf4 a g4. f8 f1
 }
-altoNotes =
+altoNotes = \relative a'
 {
-  a'4 a' a' a' bf'2 bf' e'4 e' f' e' f'1
-  f'4 f' f' f' g'2 g' f'4 f' f' f' e'1
-  e'4 e' g' e' f'4.( g'8) f'2 f'4 f' f' f' f'1
-  f'4 f' f' f' f'2 f' f'4 f' g' f' e'1
+  a4 a a a bf2 bf e,4 e f e f1
+  f4 f f f g2 g f4 f f f e1
+  e4 e g e f4.( g8) f2 f4 f f f f1
+  f4 f f f f2 f f4 f g f e1
   
-  c'4 c' c' c' c'2 c' c'4 c' c' c' c'1
-  a'4 a' bf' bf' a'2 f' f'4 f' e'4. f'8 f'1
+  c4 c c c c2 c c4 c c c c1
+  a'4 a bf bf a2 f f4 f e4. f8 f1
 }
-tenorNotes =
+tenorNotes = \relative
 {
-  f4 a c' f' f'2 e' c'4 c' c' c' c'1
-  c'4 c' c' c' c'4.( d'8) c'2 b4 b c' d' c'1
-  c'4 c' c' c' c'2 c' a4 a c' a bf1
-  bf4 a bf a bf( a) bf( a) bf a g g c'1
+  f4 a c f f2 e c4 c c c c1
+  c4 c c c c4.( d8) c2 b4 b c d c1
+  c4 c c c c2 c a4 a c a bf1
+  bf4 a bf a bf( a) bf( a) bf a g g c1
   
-  a4 a a a bf2 bf bf4 bf bf bf a4 f4( a) c'
-  f'2 c' c' c' d'4. c'8 bf4. a8 a1
+  a4 a a a bf2 bf bf4 bf bf bf a4 f4( a) c
+  f2 c c c d4. c8 bf4. a8 a1
 }
 bassNotes =
 {
@@ -120,3 +121,5 @@ layoutNotes =
   s1 * 16
   \chorusMark
 }
+
+% -*- master: ../SeniorHymnal/Hymnal.ly;

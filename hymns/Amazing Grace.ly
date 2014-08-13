@@ -88,3 +88,5 @@ bassNotes = \relative g,
 }
 
 layoutNotes = { }
+
+% -*- master: ../SeniorHymnal/Hymnal.ly;

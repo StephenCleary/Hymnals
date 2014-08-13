@@ -12,7 +12,7 @@
      (padding . 0)
      (stretchability . 0))
   %ragged-last-bottom = ##f
-  page-count = #1
+  %page-count = #1
 
   bookTitleMarkup = \markup {
     \override #'(baseline-skip . 3.5)
@@ -24,12 +24,12 @@
           \huge \larger \larger \bold
           \fromproperty #'header:title
         }
-        \vspace #1
-        \fill-line {
-          { \concat { \italic "Text: " \fromproperty #'header:poet } }
-          { \concat { \italic "Music: " \fromproperty #'header:composer } }
-        }
-        \vspace #1
+        %\vspace #1
+        %\fill-line {
+        %  { \concat { \italic "Text: " \fromproperty #'header:poet } }
+        %  { \concat { \italic "Music: " \fromproperty #'header:composer } }
+        %}
+        %\vspace #1
       }
     }
   }

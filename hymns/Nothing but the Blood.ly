@@ -5,6 +5,7 @@
   title = "Nothing but the Blood of Jesus"
   poet = "Robert Lowry, 1876"
   composer = "Robert Lowry, 1876"
+  meter = "7.8.7.8"
 }
 
 global =
@@ -58,41 +59,41 @@ altoWords = \lyricmode { }
 tenorWords = \lyricmode { }
 bassWords = \lyricmode { }
 
-sopranoNotes =
+sopranoNotes = \relative g'
 {
-  g'4 g' g' a' b' d'' b'2
-  g'8 g' g' a' b'4 b' a'2 g'
-  g'4 g' g' a' b' d'' b'2
-  g'8 g' g' a' b'4 b' a'2 g'
+  g4 g g a b d b2
+  g8 g g a b4 b a2 g
+  g4 g g a b d b2
+  g8 g g a b4 b a2 g
   
-  d''2 b'4 a' b' d'' b'2
-  a'2 a'4 g' a' a' b'( d'')
-  d''2 b'4 a' b' d'' b'2
-  g'8 g' g' a' b'4 b' a'2 g'
+  d'2 b4 a b d b2
+  a2 a4 g a a b( d)
+  d2 b4 a b d b2
+  g8 g g a b4 b a2 g
 }
-altoNotes =
+altoNotes = \relative d'
 {
-  d'4 d' d' fs' g' b' g'2
-  d'8 d' d' d' g'4 g' fs'2 g'
-  d'4 d' d' fs' g' b' g'2
-  d'8 d' d' d' g'4 g' fs'2 g'
+  d4 d d fs g b g2
+  d8 d d d g4 g fs2 g
+  d4 d d fs g b g2
+  d8 d d d g4 g fs2 g
 
-  g'2 g'4 fs' g' g' g'2
-  fs'2 fs'4 g' fs' fs' g'2
-  g'2 g'4 fs' g' g' g'2
-  d'8 d' d' d' g'4 g' fs'2 g'
+  g2 g4 fs g g g2
+  fs2 fs4 g fs fs g2
+  g2 g4 fs g g g2
+  d8 d d d g4 g fs2 g
 }
-tenorNotes =
+tenorNotes = \relative
 {
-  b4 b b d' d' d' d'2
-  b8 b b c' d'4 d' c'2 b
-  b4 b b d' d' d' d'2
-  b8 b b c' d'4 d' c'2 b
+  b4 b b d d d d2
+  b8 b b c d4 d c2 b
+  b4 b b d d d d2
+  b8 b b c d4 d c2 b
 
-  b2 d'4 d' d' b d'2
-  c'2 c'4 b d' d' d'( b)
-  b2 d'4 d' d' b d'2
-  b8 b b c' d'4 d' c'2 b
+  b2 d4 d d b d2
+  c2 c4 b d d d( b)
+  b2 d4 d d b d2
+  b8 b b c d4 d c2 b
 }
 bassNotes =
 {
@@ -114,3 +115,5 @@ layoutNotes =
   \chorusMark
   s1 * 4 \break
 }
+
+% -*- master: ../SeniorHymnal/Hymnal.ly;
