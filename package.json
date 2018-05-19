@@ -1,12 +1,12 @@
 {
-  "name": "dockertooling",
+  "name": "hymnals",
   "version": "1.0.0",
   "description": "Public-domain hymnals",
   "config" : { "image" : "" },
   "scripts": {
     "predocker-run": "docker pull %npm_package_config_image%",
     "docker-run": "docker run --rm -v %INIT_CWD%:/app -w /app %npm_package_config_image%",
-    "docker:lilypond": "npm run docker-run --dockertooling:image=iskaron/lilypond lilypond",
+    "docker:lilypond": "npm run docker-run --hymnals:image=iskaron/lilypond lilypond",
     "build": "npm run docker:lilypond -- SeniorHymnal/Hymnal.ly"
   },
   "repository": {
