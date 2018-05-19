@@ -5,12 +5,13 @@
     "tasks": [
         {
             "label": "lilypond",
-            "type": "shell",
-            "command": "docker run --rm -v ($PWD.Path + ':/app') -w /app/SeniorHymnal iskaron/lilypond lilypond Hymnal.ly",
+            "type": "npm",
+            "script": "build",
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }

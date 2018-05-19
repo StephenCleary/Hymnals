@@ -1,0 +1,18 @@
+{
+  "name": "hymnals",
+  "version": "1.0.0",
+  "description": "Public-domain hymnals",
+  "scripts": {
+    "build": "docker run --rm -v %INIT_CWD%:/app -w /app/SeniorHymnal iskaron/lilypond lilypond Hymnal.ly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenCleary/Hymnals.git"
+  },
+  "author": "Stephen Cleary",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/StephenCleary/Hymnals/issues"
+  },
+  "homepage": "https://github.com/StephenCleary/Hymnals#readme"
+}
