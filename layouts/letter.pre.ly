@@ -1,7 +1,7 @@
 \version "2.18.2"
 \language "english"
 
-\include "..\openlilylib\editorial-tools\merge-rests-engraver\definition.ily"
+\include "../openlilylib/editorial-tools/merge-rests-engraver/definition.ily"
 
 \paper
 {
