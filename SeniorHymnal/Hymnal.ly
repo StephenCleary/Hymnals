@@ -6,6 +6,8 @@
   tagline = ##f
 }
 
+\book { }
+
 \header { number = "1" }
 \include "../hymns/Nothing but the Blood.ly"
 \book { \include "../layouts/letter.post.ly" }
