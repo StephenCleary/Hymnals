@@ -24,12 +24,12 @@
           \huge \larger \larger \bold
           \fromproperty #'header:title
         }
-        %\vspace #1
-        %\fill-line {
-        %  { \concat { \italic "Text: " \fromproperty #'header:poet } }
-        %  { \concat { \italic "Music: " \fromproperty #'header:composer } }
-        %}
-        %\vspace #1
+        \vspace #1
+        \fill-line {
+          { \concat { \italic "Text: " \fromproperty #'header:poet } }
+          { \concat { \italic "Music: " \fromproperty #'header:composer } }
+        }
+        \vspace #1
       }
     }
   }

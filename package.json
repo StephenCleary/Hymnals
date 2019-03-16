@@ -7,7 +7,7 @@
     "pull": "docker pull %npm_package_config_image%",
     "docker-run": "docker run --rm -v %INIT_CWD%:/app -w /app/output %npm_package_config_image%",
     "lilypond": "npm run docker-run lilypond",
-    "build": "mkdir output & npm run lilypond -- ../SeniorHymnal/Hymnal.ly"
+    "build": "mkdir output & npm run lilypond -- ../FamilyHymnal/Hymnal.ly"
   },
   "repository": {
     "type": "git",
