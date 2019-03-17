@@ -12,6 +12,10 @@
 \include "../hymns/Amazing Grace.ly"
 \book { \include "../layouts/letter.post.ly" }
 
+\header { number = "2" }
+\include "../hymns/The Solid Rock.ly"
+\book { \include "../layouts/letter.post.ly" }
+
 \header { number = "3" }
 \include "../hymns/Like a River, Glorious.ly"
 \book { \include "../layouts/letter.post.ly" }
