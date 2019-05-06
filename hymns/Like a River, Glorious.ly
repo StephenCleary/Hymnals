@@ -50,9 +50,9 @@ sopWordsTwo = \lyricmode
 sopWordsThree = \lyricmode
 {
   \set stanza = "3. "
-  Ev -- 'ry joy or tri -- all
+  Ev -- 'ry joy or tri -- al
   Fall -- eth from a -- bove,
-  Trac'd up -- on our di -- all
+  Trac'd up -- on our di -- al
   By the Sun of Love.
 
   We may trust Him ful -- ly,
