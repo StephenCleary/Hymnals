@@ -19,3 +19,7 @@
 \header { number = "3" }
 \include "../hymns/Like a River, Glorious.ly"
 \book { \include "../layouts/letter.post.ly" }
+
+\header { number = "4" }
+\include "../hymns/All Hail the Power of Jesus' Name.ly"
+\book { \include "../layouts/letter.post.ly" }
