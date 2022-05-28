@@ -23,3 +23,7 @@
 \header { number = "4" }
 \include "../hymns/All Hail the Power of Jesus' Name.ly"
 \book { \include "../layouts/letter.post.ly" }
+
+\header { number = "5" }
+\include "../hymns/Tis So Sweet to Trust in Jesus.ly"
+\book { \include "../layouts/letter.post.ly" }
